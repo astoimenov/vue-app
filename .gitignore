@@ -2,6 +2,8 @@
 /public/storage
 /public/js
 /public/css
+/public/mix-manifest.json
+npm-*.log
 /storage/*.key
 /vendor
 /.idea

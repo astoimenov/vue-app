@@ -9,7 +9,7 @@
     <title>Laravel</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" media="screen" title="no title" charset="utf-8">
 
     <style media="screen">
         #app {
@@ -26,7 +26,7 @@
     </script>
 
     <script src="https://checkout.stripe.com/checkout.js"></script>
-    <script src="{{ mix('js/app.js') }}" charset="utf-8"></script>
+    <script src="{{ asset('js/app.js') }}" charset="utf-8"></script>
 </head>
 
 <body>
